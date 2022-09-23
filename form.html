@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="./Bootstrap/bootstrap.min.css">
+</head>
+<body>
+   <div class="container">
+      <div class="row">
+         <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+            <h3>Please Register</h3>
+            <form action="">
+               <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                  <label for="floatingPassword">Password</label>
+                </div>
+                <select class="form-select mt-3" aria-label="Default select example">
+                  <option selected>Select your gender</option>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                  <option value="secret">Do not share</option>
+                </select>     
+                <div class="form-check mt-3">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Accept our <a href="#">Terms and Conditions.</a>
+                  </label>
+                </div>                           
+                <button class="btn btn-primary mt-2" type="submit">Submit</button>
+            </form>
+         </div>
+         <div class="col-md-6">
+            <img class="img-fluid" src="./images/Registration.jpg" alt="">
+         </div>
+      </div>
+   </div>
+   <script src="./Bootstrap/bootstrap.min.js"></script>
+</body>
+</html>
